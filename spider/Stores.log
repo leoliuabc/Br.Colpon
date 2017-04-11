@@ -1,0 +1,16 @@
+35840 Tue, 11 Apr 2017 17:09:05 Stores.py[line:111] INFO Today Start 2017-04-11 17:09:05
+35840 Tue, 11 Apr 2017 17:09:05 connectionpool.py[line:818] DEBUG Starting new HTTPS connection (1): www.meliuz.com.br
+35840 Tue, 11 Apr 2017 17:09:07 connectionpool.py[line:395] DEBUG https://www.meliuz.com.br:443 "GET /desconto HTTP/1.1" 200 50124
+35840 Tue, 11 Apr 2017 17:09:09 Stores.py[line:98] INFO Sleep Start : 2017-04-11 17:09:09
+35840 Tue, 11 Apr 2017 17:09:09 Stores.py[line:99] INFO Sleep : 279s
+35840 Tue, 11 Apr 2017 17:13:48 Stores.py[line:98] INFO Sleep Start : 2017-04-11 17:13:48
+35840 Tue, 11 Apr 2017 17:13:48 Stores.py[line:99] INFO Sleep : 516s
+35840 Tue, 11 Apr 2017 17:22:24 Stores.py[line:98] INFO Sleep Start : 2017-04-11 17:22:24
+35840 Tue, 11 Apr 2017 17:22:24 Stores.py[line:99] INFO Sleep : 76s
+35840 Tue, 11 Apr 2017 17:23:40 Stores.py[line:98] INFO Sleep Start : 2017-04-11 17:23:40
+35840 Tue, 11 Apr 2017 17:23:40 Stores.py[line:99] INFO Sleep : 276s
+35840 Tue, 11 Apr 2017 17:28:16 connectionpool.py[line:818] DEBUG Starting new HTTPS connection (1): www.google.com.br
+35840 Tue, 11 Apr 2017 17:28:16 connectionpool.py[line:395] DEBUG https://www.google.com.br:443 "GET /search?q=A1Supplements HTTP/1.1" 200 None
+35840 Tue, 11 Apr 2017 17:28:17 Stores.py[line:87] INFO Insert Store name: A1Supplements
+35840 Tue, 11 Apr 2017 17:28:17 Stores.py[line:98] INFO Sleep Start : 2017-04-11 17:28:17
+35840 Tue, 11 Apr 2017 17:28:17 Stores.py[line:99] INFO Sleep : 551s
