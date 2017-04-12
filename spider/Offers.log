@@ -1,91 +1,94 @@
-35705 Tue, 11 Apr 2017 17:02:14 Offers.py[line:169] INFO Today Start 2017-04-11 17:02:14
-35705 Tue, 11 Apr 2017 17:02:14 Offers.py[line:92] INFO url = https://www.meliuz.com.br/desconto/a-casa-do-artista
-35705 Tue, 11 Apr 2017 17:02:14 connectionpool.py[line:818] DEBUG Starting new HTTPS connection (1): www.meliuz.com.br
-35705 Tue, 11 Apr 2017 17:02:17 connectionpool.py[line:395] DEBUG https://www.meliuz.com.br:443 "GET /desconto/a-casa-do-artista HTTP/1.1" 200 30824
-35705 Tue, 11 Apr 2017 17:02:17 connectionpool.py[line:207] DEBUG Starting new HTTP connection (1): staticz.com.br
-35705 Tue, 11 Apr 2017 17:02:19 connectionpool.py[line:395] DEBUG http://staticz.com.br:80 "GET /img/logos/a-casa-do-artista.png HTTP/1.1" 301 183
-35705 Tue, 11 Apr 2017 17:02:19 connectionpool.py[line:818] DEBUG Starting new HTTPS connection (1): staticz.com.br
-35705 Tue, 11 Apr 2017 17:02:20 connectionpool.py[line:395] DEBUG https://staticz.com.br:443 "GET /img/logos/a-casa-do-artista.png HTTP/1.1" 200 835
-35705 Tue, 11 Apr 2017 17:02:20 Offers.py[line:112] INFO Update Offers Status = 0
-35705 Tue, 11 Apr 2017 17:02:20 Offers.py[line:119] INFO codetype = D
-35705 Tue, 11 Apr 2017 17:02:20 Offers.py[line:135] INFO Select Offer Error
-35705 Tue, 11 Apr 2017 17:02:20 Offers.py[line:135] INFO Select Offer Error
-35705 Tue, 11 Apr 2017 17:02:20 Offers.py[line:143] INFO Update Offers Status = 1
-35705 Tue, 11 Apr 2017 17:02:20 Offers.py[line:148] INFO No Offer But Insert Offers
-35705 Tue, 11 Apr 2017 17:02:21 Offers.py[line:153] INFO Sleep Start : 2017-04-11 17:02:21
-35705 Tue, 11 Apr 2017 17:02:21 Offers.py[line:154] INFO Sleep : 87s
-35705 Tue, 11 Apr 2017 17:03:48 Offers.py[line:92] INFO url = https://www.meliuz.com.br/desconto/a-dama-e-o-cachorrinho
-35705 Tue, 11 Apr 2017 17:03:48 connectionpool.py[line:818] DEBUG Starting new HTTPS connection (1): www.meliuz.com.br
-35705 Tue, 11 Apr 2017 17:03:49 connectionpool.py[line:395] DEBUG https://www.meliuz.com.br:443 "GET /desconto/a-dama-e-o-cachorrinho HTTP/1.1" 200 31266
-35705 Tue, 11 Apr 2017 17:03:50 connectionpool.py[line:207] DEBUG Starting new HTTP connection (1): staticz.com.br
-35705 Tue, 11 Apr 2017 17:03:50 connectionpool.py[line:395] DEBUG http://staticz.com.br:80 "GET /img/logos/a-dama-e-o-cachorrinho.png HTTP/1.1" 301 183
-35705 Tue, 11 Apr 2017 17:03:50 connectionpool.py[line:818] DEBUG Starting new HTTPS connection (1): staticz.com.br
-35705 Tue, 11 Apr 2017 17:03:52 connectionpool.py[line:395] DEBUG https://staticz.com.br:443 "GET /img/logos/a-dama-e-o-cachorrinho.png HTTP/1.1" 200 4909
-35705 Tue, 11 Apr 2017 17:03:53 Offers.py[line:112] INFO Update Offers Status = 0
-35705 Tue, 11 Apr 2017 17:03:53 Offers.py[line:119] INFO codetype = D
-35705 Tue, 11 Apr 2017 17:03:53 Offers.py[line:139] INFO Insert Offers
-35705 Tue, 11 Apr 2017 17:03:53 Offers.py[line:119] INFO codetype = D
-35705 Tue, 11 Apr 2017 17:03:53 Offers.py[line:139] INFO Insert Offers
-35705 Tue, 11 Apr 2017 17:03:53 Offers.py[line:119] INFO codetype = D
-35705 Tue, 11 Apr 2017 17:03:53 Offers.py[line:139] INFO Insert Offers
-35705 Tue, 11 Apr 2017 17:03:53 Offers.py[line:119] INFO codetype = D
-35705 Tue, 11 Apr 2017 17:03:53 Offers.py[line:139] INFO Insert Offers
-35705 Tue, 11 Apr 2017 17:03:53 Offers.py[line:124] INFO codetype = C
-35705 Tue, 11 Apr 2017 17:03:53 Offers.py[line:139] INFO Insert Offers
-35705 Tue, 11 Apr 2017 17:03:53 Offers.py[line:153] INFO Sleep Start : 2017-04-11 17:03:53
-35705 Tue, 11 Apr 2017 17:03:53 Offers.py[line:154] INFO Sleep : 121s
-35705 Tue, 11 Apr 2017 17:05:54 Offers.py[line:92] INFO url = https://www.meliuz.com.br/desconto/a-esportiva
-35705 Tue, 11 Apr 2017 17:05:54 connectionpool.py[line:818] DEBUG Starting new HTTPS connection (1): www.meliuz.com.br
-35705 Tue, 11 Apr 2017 17:05:55 connectionpool.py[line:395] DEBUG https://www.meliuz.com.br:443 "GET /desconto/a-esportiva HTTP/1.1" 200 32267
-35705 Tue, 11 Apr 2017 17:05:56 connectionpool.py[line:207] DEBUG Starting new HTTP connection (1): staticz.com.br
-35705 Tue, 11 Apr 2017 17:05:56 connectionpool.py[line:395] DEBUG http://staticz.com.br:80 "GET /img/logos/a-esportiva.png HTTP/1.1" 301 183
-35705 Tue, 11 Apr 2017 17:05:56 connectionpool.py[line:818] DEBUG Starting new HTTPS connection (1): staticz.com.br
-35705 Tue, 11 Apr 2017 17:05:58 connectionpool.py[line:395] DEBUG https://staticz.com.br:443 "GET /img/logos/a-esportiva.png HTTP/1.1" 200 5628
-35705 Tue, 11 Apr 2017 17:05:58 Offers.py[line:112] INFO Update Offers Status = 0
-35705 Tue, 11 Apr 2017 17:05:58 Offers.py[line:119] INFO codetype = D
-35705 Tue, 11 Apr 2017 17:05:58 Offers.py[line:139] INFO Insert Offers
-35705 Tue, 11 Apr 2017 17:05:58 Offers.py[line:119] INFO codetype = D
-35705 Tue, 11 Apr 2017 17:05:58 Offers.py[line:139] INFO Insert Offers
-35705 Tue, 11 Apr 2017 17:05:58 Offers.py[line:119] INFO codetype = D
-35705 Tue, 11 Apr 2017 17:05:58 Offers.py[line:139] INFO Insert Offers
-35705 Tue, 11 Apr 2017 17:05:58 Offers.py[line:119] INFO codetype = D
-35705 Tue, 11 Apr 2017 17:05:58 Offers.py[line:139] INFO Insert Offers
-35705 Tue, 11 Apr 2017 17:05:58 Offers.py[line:124] INFO codetype = C
-35705 Tue, 11 Apr 2017 17:05:58 Offers.py[line:139] INFO Insert Offers
-35705 Tue, 11 Apr 2017 17:05:58 Offers.py[line:119] INFO codetype = D
-35705 Tue, 11 Apr 2017 17:05:58 Offers.py[line:139] INFO Insert Offers
-35705 Tue, 11 Apr 2017 17:05:58 Offers.py[line:153] INFO Sleep Start : 2017-04-11 17:05:58
-35705 Tue, 11 Apr 2017 17:05:58 Offers.py[line:154] INFO Sleep : 119s
-35705 Tue, 11 Apr 2017 17:07:57 Offers.py[line:92] INFO url = https://www.meliuz.com.br/desconto/a-fabula
-35705 Tue, 11 Apr 2017 17:07:57 connectionpool.py[line:818] DEBUG Starting new HTTPS connection (1): www.meliuz.com.br
-35705 Tue, 11 Apr 2017 17:08:00 connectionpool.py[line:395] DEBUG https://www.meliuz.com.br:443 "GET /desconto/a-fabula HTTP/1.1" 200 37226
-35705 Tue, 11 Apr 2017 17:08:00 connectionpool.py[line:207] DEBUG Starting new HTTP connection (1): staticz.com.br
-35705 Tue, 11 Apr 2017 17:08:01 connectionpool.py[line:395] DEBUG http://staticz.com.br:80 "GET /img/logos/a-fabula.png HTTP/1.1" 301 183
-35705 Tue, 11 Apr 2017 17:08:01 connectionpool.py[line:818] DEBUG Starting new HTTPS connection (1): staticz.com.br
-35705 Tue, 11 Apr 2017 17:08:03 connectionpool.py[line:395] DEBUG https://staticz.com.br:443 "GET /img/logos/a-fabula.png HTTP/1.1" 200 3997
-35705 Tue, 11 Apr 2017 17:08:03 Offers.py[line:112] INFO Update Offers Status = 0
-35705 Tue, 11 Apr 2017 17:08:03 Offers.py[line:119] INFO codetype = D
-35705 Tue, 11 Apr 2017 17:08:03 Offers.py[line:143] INFO Update Offers Status = 1
-35705 Tue, 11 Apr 2017 17:08:03 Offers.py[line:148] INFO No Offer But Insert Offers
-35705 Tue, 11 Apr 2017 17:08:03 Offers.py[line:124] INFO codetype = C
-35705 Tue, 11 Apr 2017 17:08:03 Offers.py[line:139] INFO Insert Offers
-35705 Tue, 11 Apr 2017 17:08:03 Offers.py[line:124] INFO codetype = C
-35705 Tue, 11 Apr 2017 17:08:03 Offers.py[line:139] INFO Insert Offers
-35705 Tue, 11 Apr 2017 17:08:03 Offers.py[line:124] INFO codetype = C
-35705 Tue, 11 Apr 2017 17:08:03 Offers.py[line:139] INFO Insert Offers
-35705 Tue, 11 Apr 2017 17:08:03 Offers.py[line:124] INFO codetype = C
-35705 Tue, 11 Apr 2017 17:08:03 Offers.py[line:139] INFO Insert Offers
-35705 Tue, 11 Apr 2017 17:08:03 Offers.py[line:119] INFO codetype = D
-35705 Tue, 11 Apr 2017 17:08:03 Offers.py[line:139] INFO Insert Offers
-35705 Tue, 11 Apr 2017 17:08:03 Offers.py[line:119] INFO codetype = D
-35705 Tue, 11 Apr 2017 17:08:03 Offers.py[line:139] INFO Insert Offers
-35705 Tue, 11 Apr 2017 17:08:03 Offers.py[line:119] INFO codetype = D
-35705 Tue, 11 Apr 2017 17:08:03 Offers.py[line:139] INFO Insert Offers
-35705 Tue, 11 Apr 2017 17:08:03 Offers.py[line:119] INFO codetype = D
-35705 Tue, 11 Apr 2017 17:08:03 Offers.py[line:139] INFO Insert Offers
-35705 Tue, 11 Apr 2017 17:08:03 Offers.py[line:119] INFO codetype = D
-35705 Tue, 11 Apr 2017 17:08:03 Offers.py[line:139] INFO Insert Offers
-35705 Tue, 11 Apr 2017 17:08:03 Offers.py[line:119] INFO codetype = D
-35705 Tue, 11 Apr 2017 17:08:03 Offers.py[line:139] INFO Insert Offers
-35705 Tue, 11 Apr 2017 17:08:03 Offers.py[line:153] INFO Sleep Start : 2017-04-11 17:08:03
-35705 Tue, 11 Apr 2017 17:08:03 Offers.py[line:154] INFO Sleep : 157s
+2173 Tue, 11 Apr 2017 19:08:33 Offers.py[line:169] INFO Today Start 2017-04-11 19:08:33
+2173 Tue, 11 Apr 2017 19:08:34 Offers.py[line:92] INFO url = https://www.meliuz.com.br/desconto/a-casa-do-artista
+2173 Tue, 11 Apr 2017 19:08:34 connectionpool.py[line:818] DEBUG Starting new HTTPS connection (1): www.meliuz.com.br
+2173 Tue, 11 Apr 2017 19:08:36 connectionpool.py[line:395] DEBUG https://www.meliuz.com.br:443 "GET /desconto/a-casa-do-artista HTTP/1.1" 200 30824
+2173 Tue, 11 Apr 2017 19:08:37 Offers.py[line:103] INFO Img it's OK!~
+2173 Tue, 11 Apr 2017 19:08:37 Offers.py[line:112] INFO Update Offers Status = 0
+2173 Tue, 11 Apr 2017 19:08:37 Offers.py[line:119] INFO codetype = D
+2173 Tue, 11 Apr 2017 19:08:37 Offers.py[line:135] INFO Select Offer Error
+2173 Tue, 11 Apr 2017 19:08:37 Offers.py[line:135] INFO Select Offer Error
+2173 Tue, 11 Apr 2017 19:08:37 Offers.py[line:135] INFO Select Offer Error
+2173 Tue, 11 Apr 2017 19:08:37 Offers.py[line:143] INFO Update Offers Status = 1
+2173 Tue, 11 Apr 2017 19:08:37 Offers.py[line:148] INFO No Offer But Insert Offers
+2173 Tue, 11 Apr 2017 19:08:37 Offers.py[line:153] INFO Sleep Start : 2017-04-11 19:08:37
+2173 Tue, 11 Apr 2017 19:08:37 Offers.py[line:154] INFO Sleep : 45s
+2173 Tue, 11 Apr 2017 19:09:22 Offers.py[line:92] INFO url = https://www.meliuz.com.br/desconto/a-dama-e-o-cachorrinho
+2173 Tue, 11 Apr 2017 19:09:22 connectionpool.py[line:818] DEBUG Starting new HTTPS connection (1): www.meliuz.com.br
+2173 Tue, 11 Apr 2017 19:09:25 connectionpool.py[line:395] DEBUG https://www.meliuz.com.br:443 "GET /desconto/a-dama-e-o-cachorrinho HTTP/1.1" 200 31266
+2173 Tue, 11 Apr 2017 19:09:25 Offers.py[line:103] INFO Img it's OK!~
+2173 Tue, 11 Apr 2017 19:09:25 Offers.py[line:112] INFO Update Offers Status = 0
+2173 Tue, 11 Apr 2017 19:09:25 Offers.py[line:119] INFO codetype = D
+2173 Tue, 11 Apr 2017 19:09:25 Offers.py[line:139] INFO Insert Offers
+2173 Tue, 11 Apr 2017 19:09:25 Offers.py[line:119] INFO codetype = D
+2173 Tue, 11 Apr 2017 19:09:25 Offers.py[line:139] INFO Insert Offers
+2173 Tue, 11 Apr 2017 19:09:25 Offers.py[line:119] INFO codetype = D
+2173 Tue, 11 Apr 2017 19:09:25 Offers.py[line:139] INFO Insert Offers
+2173 Tue, 11 Apr 2017 19:09:25 Offers.py[line:119] INFO codetype = D
+2173 Tue, 11 Apr 2017 19:09:25 Offers.py[line:139] INFO Insert Offers
+2173 Tue, 11 Apr 2017 19:09:25 Offers.py[line:124] INFO codetype = C
+2173 Tue, 11 Apr 2017 19:09:25 Offers.py[line:139] INFO Insert Offers
+2173 Tue, 11 Apr 2017 19:09:25 Offers.py[line:153] INFO Sleep Start : 2017-04-11 19:09:25
+2173 Tue, 11 Apr 2017 19:09:25 Offers.py[line:154] INFO Sleep : 31s
+2173 Tue, 11 Apr 2017 19:09:56 Offers.py[line:92] INFO url = https://www.meliuz.com.br/desconto/a-esportiva
+2173 Tue, 11 Apr 2017 19:09:56 connectionpool.py[line:818] DEBUG Starting new HTTPS connection (1): www.meliuz.com.br
+2173 Tue, 11 Apr 2017 19:09:58 connectionpool.py[line:395] DEBUG https://www.meliuz.com.br:443 "GET /desconto/a-esportiva HTTP/1.1" 200 32267
+2173 Tue, 11 Apr 2017 19:09:58 Offers.py[line:103] INFO Img it's OK!~
+2173 Tue, 11 Apr 2017 19:09:58 Offers.py[line:112] INFO Update Offers Status = 0
+2173 Tue, 11 Apr 2017 19:09:58 Offers.py[line:119] INFO codetype = D
+2173 Tue, 11 Apr 2017 19:09:58 Offers.py[line:139] INFO Insert Offers
+2173 Tue, 11 Apr 2017 19:09:58 Offers.py[line:119] INFO codetype = D
+2173 Tue, 11 Apr 2017 19:09:58 Offers.py[line:139] INFO Insert Offers
+2173 Tue, 11 Apr 2017 19:09:58 Offers.py[line:119] INFO codetype = D
+2173 Tue, 11 Apr 2017 19:09:58 Offers.py[line:139] INFO Insert Offers
+2173 Tue, 11 Apr 2017 19:09:58 Offers.py[line:119] INFO codetype = D
+2173 Tue, 11 Apr 2017 19:09:58 Offers.py[line:139] INFO Insert Offers
+2173 Tue, 11 Apr 2017 19:09:58 Offers.py[line:124] INFO codetype = C
+2173 Tue, 11 Apr 2017 19:09:58 Offers.py[line:139] INFO Insert Offers
+2173 Tue, 11 Apr 2017 19:09:58 Offers.py[line:119] INFO codetype = D
+2173 Tue, 11 Apr 2017 19:09:58 Offers.py[line:139] INFO Insert Offers
+2173 Tue, 11 Apr 2017 19:09:58 Offers.py[line:153] INFO Sleep Start : 2017-04-11 19:09:58
+2173 Tue, 11 Apr 2017 19:09:58 Offers.py[line:154] INFO Sleep : 82s
+2173 Tue, 11 Apr 2017 19:11:20 Offers.py[line:92] INFO url = https://www.meliuz.com.br/desconto/a-fabula
+2173 Tue, 11 Apr 2017 19:11:20 connectionpool.py[line:818] DEBUG Starting new HTTPS connection (1): www.meliuz.com.br
+2173 Tue, 11 Apr 2017 19:11:27 connectionpool.py[line:395] DEBUG https://www.meliuz.com.br:443 "GET /desconto/a-fabula HTTP/1.1" 200 37226
+2173 Tue, 11 Apr 2017 19:11:27 Offers.py[line:103] INFO Img it's OK!~
+2173 Tue, 11 Apr 2017 19:11:27 Offers.py[line:112] INFO Update Offers Status = 0
+2173 Tue, 11 Apr 2017 19:11:27 Offers.py[line:119] INFO codetype = D
+2173 Tue, 11 Apr 2017 19:11:27 Offers.py[line:143] INFO Update Offers Status = 1
+2173 Tue, 11 Apr 2017 19:11:27 Offers.py[line:148] INFO No Offer But Insert Offers
+2173 Tue, 11 Apr 2017 19:11:27 Offers.py[line:124] INFO codetype = C
+2173 Tue, 11 Apr 2017 19:11:27 Offers.py[line:139] INFO Insert Offers
+2173 Tue, 11 Apr 2017 19:11:27 Offers.py[line:124] INFO codetype = C
+2173 Tue, 11 Apr 2017 19:11:27 Offers.py[line:139] INFO Insert Offers
+2173 Tue, 11 Apr 2017 19:11:27 Offers.py[line:124] INFO codetype = C
+2173 Tue, 11 Apr 2017 19:11:27 Offers.py[line:139] INFO Insert Offers
+2173 Tue, 11 Apr 2017 19:11:27 Offers.py[line:124] INFO codetype = C
+2173 Tue, 11 Apr 2017 19:11:27 Offers.py[line:139] INFO Insert Offers
+2173 Tue, 11 Apr 2017 19:11:27 Offers.py[line:119] INFO codetype = D
+2173 Tue, 11 Apr 2017 19:11:27 Offers.py[line:139] INFO Insert Offers
+2173 Tue, 11 Apr 2017 19:11:27 Offers.py[line:119] INFO codetype = D
+2173 Tue, 11 Apr 2017 19:11:27 Offers.py[line:139] INFO Insert Offers
+2173 Tue, 11 Apr 2017 19:11:27 Offers.py[line:119] INFO codetype = D
+2173 Tue, 11 Apr 2017 19:11:27 Offers.py[line:139] INFO Insert Offers
+2173 Tue, 11 Apr 2017 19:11:27 Offers.py[line:119] INFO codetype = D
+2173 Tue, 11 Apr 2017 19:11:27 Offers.py[line:139] INFO Insert Offers
+2173 Tue, 11 Apr 2017 19:11:27 Offers.py[line:119] INFO codetype = D
+2173 Tue, 11 Apr 2017 19:11:27 Offers.py[line:139] INFO Insert Offers
+2173 Tue, 11 Apr 2017 19:11:27 Offers.py[line:119] INFO codetype = D
+2173 Tue, 11 Apr 2017 19:11:27 Offers.py[line:139] INFO Insert Offers
+2173 Tue, 11 Apr 2017 19:11:27 Offers.py[line:153] INFO Sleep Start : 2017-04-11 19:11:27
+2173 Tue, 11 Apr 2017 19:11:27 Offers.py[line:154] INFO Sleep : 170s
+2173 Tue, 11 Apr 2017 19:14:17 Offers.py[line:92] INFO url = https://www.meliuz.com.br/desconto/a1supplements
+2173 Tue, 11 Apr 2017 19:14:17 connectionpool.py[line:818] DEBUG Starting new HTTPS connection (1): www.meliuz.com.br
+2173 Tue, 11 Apr 2017 19:14:19 connectionpool.py[line:395] DEBUG https://www.meliuz.com.br:443 "GET /desconto/a1supplements HTTP/1.1" 200 30770
+2173 Tue, 11 Apr 2017 19:14:19 connectionpool.py[line:207] DEBUG Starting new HTTP connection (1): staticz.com.br
+2173 Tue, 11 Apr 2017 19:14:20 connectionpool.py[line:395] DEBUG http://staticz.com.br:80 "GET /img/logos/a1supplements.png HTTP/1.1" 301 183
+2173 Tue, 11 Apr 2017 19:14:20 connectionpool.py[line:818] DEBUG Starting new HTTPS connection (1): staticz.com.br
+2173 Tue, 11 Apr 2017 19:14:22 connectionpool.py[line:395] DEBUG https://staticz.com.br:443 "GET /img/logos/a1supplements.png HTTP/1.1" 200 5314
+2173 Tue, 11 Apr 2017 19:14:22 Offers.py[line:112] INFO Update Offers Status = 0
+2173 Tue, 11 Apr 2017 19:14:22 Offers.py[line:119] INFO codetype = D
+2173 Tue, 11 Apr 2017 19:14:22 Offers.py[line:143] INFO Update Offers Status = 1
+2173 Tue, 11 Apr 2017 19:14:22 Offers.py[line:148] INFO No Offer But Insert Offers
+2173 Tue, 11 Apr 2017 19:14:22 Offers.py[line:153] INFO Sleep Start : 2017-04-11 19:14:22
+2173 Tue, 11 Apr 2017 19:14:22 Offers.py[line:154] INFO Sleep : 44s
+2173 Tue, 11 Apr 2017 19:15:06 Offers.py[line:173] INFO Today End! Start Sleep 18880s (Sleep Till Tomorrow)

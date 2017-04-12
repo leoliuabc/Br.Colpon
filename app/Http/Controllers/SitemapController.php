@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
+use Illuminate\Support\Facades\Cache;
 
 use App\Http\Requests;
 use Illuminate\Http\Request;
@@ -17,8 +18,12 @@ class SitemapController extends Controller
      */
     public function index()
     {
-        $stores = Store::all();
-        $offers = Offer::where('status',1)->get();
-        return view('sitemap',['stores' => $stores, 'offers' => $offers]);
+        if ( !Cache::has('sitemapIndex') ) {
+            $stores = Store::all();
+            $offers = Offer::where('status',1)->get();
+            $data = ['stores' => $stores, 'offers' => $offers];
+            Cache::put('sitemapIndex', $data, 120);
+        }
+        return view('sitemap',Cache::get('sitemapIndex'));
     }
 }

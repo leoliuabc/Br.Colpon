@@ -17,7 +17,7 @@ class SearchController extends Controller
      */
     public function index(Request $request)
     {
-        $store_name =$request->input('q');
+        $store_name = $request->input('q');
         $top_stores = Store::top_stores();
         $store_id = DB::table('stores')->where('name', 'like', $store_name.'%')->value('id');
         $store = Store::find($store_id);

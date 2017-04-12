@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
+use Illuminate\Support\Facades\Cache;
 
 use App\Http\Requests;
 use Illuminate\Http\Request;
@@ -16,8 +17,12 @@ class HomeController extends Controller
      */
     public function index()
     {
-        $top_stores = Store::top_stores();
-        $new_offers = Offer::new_offers();
-        return view('home',['top_stores' => $top_stores,'new_offers' => $new_offers]);
+        if ( !Cache::has('homeIndex') ) {
+            $top_stores = Store::top_stores();
+            $new_offers = Offer::new_offers();
+            $data = ['top_stores' => $top_stores,'new_offers' => $new_offers];
+            Cache::put('homeIndex', $data, 120);
+        }
+        return view('home',Cache::get('homeIndex'));
     }
 }
